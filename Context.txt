@@ -1,0 +1,58 @@
+Project Name:
+Ehgz
+
+Goal:
+Build a beautiful, modern, mobile-first website that allows users to browse restaurants, cafes, and bars and make reservations. Most of the traffic will be mobile, but the site should also work perfectly on desktop and tablet. It should be SEO-optimized for maximum discoverability.
+
+Key Features:
+1. Admin-only content management: Admin uploads and updates restaurant/cafe/bar info and images directly in code or via a CMS like Netlify CMS (optional). No public submissions directly on the site.
+2. Owners submit their venue for consideration via Google Forms or Google Docs link. Admin reviews and manually adds approved venues.
+3. Reservation functionality: Integrated with a third-party booking tool (e.g., Calendly, or Google Calendar booking widget) to avoid backend development.
+4. Search and filtering: Allow visitors to filter venues by type (restaurant, cafe, bar) and possibly location or cuisine.
+5. Light and dark theme toggle.
+6. Modern, animated UI with smooth transitions.
+7. Fully responsive and mobile-optimized.
+8. SEO-optimized with descriptive meta tags, structured data, and fast load times.
+9. Hosted as a static site on Vercel.
+
+Tech Stack:
+- React (with hooks)
+- Tailwind CSS for styling
+- Optional: Next.js for server-side rendering and better SEO
+- Third-party booking integration via embed
+- Framer Motion or similar for animations
+- Static data storage in JSON or Markdown files
+
+Pages:
+1. Home page — Featured venues, categories, search bar
+2. Venue listing page — Grid or list view with images, basic info, filter options
+3. Venue detail page — Larger images, full description, location map (optional), booking button (linked to 3rd-party tool)
+4. About page — Info about the service
+5. Contact page — Contact info, Google Form link for submissions
+
+Design:
+- Clean, minimal, and modern
+- Mobile-first layout
+- Smooth animations for scrolling and filtering
+- Light & Dark theme toggle button
+- Beautiful typography and high-quality images
+
+Admin Workflow:
+1. Receive venue submissions via Google Forms/Docs.
+2. Approve or reject via email.
+3. For approved venues, add info and photos to site files.
+4. Redeploy static site to update listings.
+
+Non-Goals:
+- No user accounts or authentication
+- No backend database
+- No direct user-uploaded content
+
+Hosting:
+- Host on Vercel
+
+Deliverables:
+- Full responsive React project
+- SEO-optimized pages
+- Integrated 3rd-party booking system
+- Documentation for adding new venues manually

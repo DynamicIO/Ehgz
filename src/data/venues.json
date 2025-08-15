@@ -1,0 +1,168 @@
+[
+  {
+    "id": "1",
+    "name": "Sequoia",
+    "type": "restaurant",
+    "cuisine": "Mediterranean, Lebanese, Egyptian",
+    "location": "Zamalek",
+    "address": "53 Abu El Feda Street, Zamalek, Cairo 11211, Egypt",
+    "phone": "+20 2 2735 0014",
+    "email": "info@sequoiacairo.com",
+    "website": "https://sequoiacairo.com",
+    "description": "Mediterranean–Lebanese–Egyptian fusion in a chic, breezy ambiance—meze, sushi, cocktails, and sheesha, all with panoramic Nile views. This sophisticated restaurant combines the best of Middle Eastern and Mediterranean cuisines in an elegant waterfront setting.",
+    "shortDescription": "Mediterranean-Lebanese-Egyptian fusion with panoramic Nile views",
+    "rating": 4.4,
+    "priceRange": "$$$",
+    "image": "/Sequoia.jpeg",
+    "gallery": [
+      "/Sequoia.jpeg",
+      "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=800&q=80",
+      "https://images.unsplash.com/photo-1544148103-0773bf10d330?w=800&q=80"
+    ],
+    "features": ["WiFi", "Outdoor Seating", "Shisha Lounge", "Romantic Setting", "Waterfront Views"],
+    "hours": {
+      "monday": "12:00 PM - 2:00 AM",
+      "tuesday": "12:00 PM - 2:00 AM",
+      "wednesday": "12:00 PM - 2:00 AM",
+      "thursday": "12:00 PM - 2:00 AM",
+      "friday": "12:00 PM - 2:00 AM",
+      "saturday": "12:00 PM - 2:00 AM",
+      "sunday": "12:00 PM - 2:00 AM"
+    },
+    "bookingUrl": "https://calendly.com/sequoia-reservations",
+    "featured": true
+  },
+  {
+    "id": "2",
+    "name": "Khufu's Restaurant",
+    "type": "restaurant",
+    "cuisine": "Modern Egyptian",
+    "location": "Giza",
+    "address": "Inside Giza Pyramid Complex, Giza, Egypt",
+    "phone": "+20 2 3377 3222",
+    "email": "reservations@khufusrestaurant.com",
+    "website": "https://khufusrestaurant.com",
+    "description": "Modern interpretations of Egyptian classics like koshari and sea bass, served with an unparalleled backdrop of the Great Pyramid. This unique dining experience combines contemporary culinary techniques with ancient Egyptian flavors.",
+    "shortDescription": "Modern Egyptian cuisine with Great Pyramid views",
+    "rating": 4.3,
+    "priceRange": "$$$",
+    "image": "/Khufus-Restaurant.png",
+    "gallery": [
+      "/Khufus-Restaurant.png",
+      "https://images.unsplash.com/photo-1544148103-0773bf10d330?w=800&q=80",
+      "https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?w=800&q=80"
+    ],
+    "features": ["Outdoor Seating", "Panoramic Views", "Heritage Site Access", "Fine Dining", "Reservation Required"],
+    "hours": {
+      "monday": "11:00 AM - 10:00 PM",
+      "tuesday": "11:00 AM - 10:00 PM",
+      "wednesday": "11:00 AM - 10:00 PM",
+      "thursday": "11:00 AM - 10:00 PM",
+      "friday": "11:00 AM - 11:00 PM",
+      "saturday": "11:00 AM - 11:00 PM",
+      "sunday": "11:00 AM - 10:00 PM"
+    },
+    "bookingUrl": "https://calendly.com/khufus-reservations",
+    "featured": true
+  },
+  {
+    "id": "3",
+    "name": "Le Tarbouche (Riverboat)",
+    "type": "restaurant",
+    "cuisine": "Egyptian on the Nile",
+    "location": "Zamalek",
+    "address": "Le Pacha 1901 Boat, Saray El Gezira Street, Zamalek, Cairo, Egypt",
+    "phone": "+20 2 2735 6730",
+    "email": "info@letarbouche.com",
+    "website": "https://letarbouche.com",
+    "description": "A stylish moored boat offering classic Egyptian dishes with live music and Nile views. This unique floating restaurant provides an authentic Egyptian dining experience on the historic Nile River.",
+    "shortDescription": "Classic Egyptian dishes on a stylish Nile riverboat",
+    "rating": 4.1,
+    "priceRange": "$$",
+    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+      "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=800&q=80",
+      "https://images.unsplash.com/photo-1544148103-0773bf10d330?w=800&q=80"
+    ],
+    "features": ["Waterfront Dining", "Live Music", "Outdoor Seating", "Group Friendly"],
+    "hours": {
+      "monday": "6:00 PM - 2:00 AM",
+      "tuesday": "6:00 PM - 2:00 AM",
+      "wednesday": "6:00 PM - 2:00 AM",
+      "thursday": "6:00 PM - 2:00 AM",
+      "friday": "6:00 PM - 3:00 AM",
+      "saturday": "6:00 PM - 3:00 AM",
+      "sunday": "6:00 PM - 2:00 AM"
+    },
+    "bookingUrl": "https://calendly.com/le-tarbouche",
+    "featured": false
+  },
+  {
+    "id": "4",
+    "name": "Nine Pyramids Lounge",
+    "type": "restaurant",
+    "cuisine": "Egyptian Grills & Meze",
+    "location": "Giza",
+    "address": "Giza Pyramid Plateau, Giza, Egypt",
+    "phone": "+20 2 3377 2513",
+    "email": "info@ninepyramidslounge.com",
+    "website": "https://ninepyramidslounge.com",
+    "description": "Casual mixed grills and meze with direct views of all nine pyramids—ideal for lunch after sightseeing. This unique location offers traditional Egyptian cuisine with one of the world's most iconic backdrops.",
+    "shortDescription": "Egyptian grills and meze with views of all nine pyramids",
+    "rating": 4.2,
+    "priceRange": "$$$",
+    "image": "/Nine Pyramids Lounge.jpg",
+    "gallery": [
+      "/Nine Pyramids Lounge.jpg",
+      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80",
+      "https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?w=800&q=80"
+    ],
+    "features": ["Outdoor Seating", "Scenic Views", "Family Friendly", "Casual Dining"],
+    "hours": {
+      "monday": "11:00 AM - 10:00 PM",
+      "tuesday": "11:00 AM - 10:00 PM",
+      "wednesday": "11:00 AM - 10:00 PM",
+      "thursday": "11:00 AM - 10:00 PM",
+      "friday": "11:00 AM - 11:00 PM",
+      "saturday": "11:00 AM - 11:00 PM",
+      "sunday": "11:00 AM - 10:00 PM"
+    },
+    "bookingUrl": "https://calendly.com/nine-pyramids",
+    "featured": false
+  },
+  {
+    "id": "5",
+    "name": "Babel",
+    "type": "restaurant",
+    "cuisine": "Lebanese / Seafood",
+    "location": "New Cairo",
+    "address": "Ring Road, New Cairo (Waterway by 5A), First Settlement, Cairo Governorate, 11835, Egypt",
+    "phone": "+20 2 2617 0000",
+    "email": "reservations@babel-cairo.com",
+    "website": "https://babel-cairo.com",
+    "description": "Upscale Lebanese fine dining with a dramatic architectural setting. Known for fresh seafood, authentic mezze, and signature dishes like Fattet Shrimps, Babel offers a refined culinary experience inspired by Lebanese coastal traditions. The restaurant's stunning waterway location and elegant design create an unforgettable dining atmosphere.",
+    "shortDescription": "Upscale Lebanese fine dining with dramatic architecture and waterway views",
+    "rating": 4.6,
+    "priceRange": "$$$$",
+    "image": "/Babel.jpg",
+    "gallery": [
+      "/Babel.jpg",
+      "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80",
+      "https://images.unsplash.com/photo-1544148103-0773bf10d330?w=800&q=80"
+    ],
+    "features": ["WiFi", "Outdoor & Indoor Seating", "Elegant Architectural Design", "Fine-Dining Lebanese Cuisine", "Scenic Waterway Location"],
+    "hours": {
+      "monday": "12:00 PM - 12:00 AM",
+      "tuesday": "12:00 PM - 12:00 AM",
+      "wednesday": "12:00 PM - 12:00 AM",
+      "thursday": "12:00 PM - 1:00 AM",
+      "friday": "12:00 PM - 1:00 AM",
+      "saturday": "12:00 PM - 1:00 AM",
+      "sunday": "12:00 PM - 12:00 AM"
+    },
+    "bookingUrl": "https://calendly.com/babel-reservations",
+    "featured": true
+  }
+]
+
