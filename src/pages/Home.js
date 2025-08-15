@@ -111,7 +111,7 @@ const Home = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6"
+            className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6 text-white"
           >
             Discover Amazing{' '}
             <span className="gradient-text">Dining</span> Experiences
@@ -121,7 +121,7 @@ const Home = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto"
+            className="text-xl sm:text-2xl text-white/90 mb-8 max-w-2xl mx-auto"
           >
             Find and book the best restaurants, cafes, and bars across Egypt. 
           </motion.p>
@@ -300,12 +300,14 @@ const Home = () => {
               Join our community of amazing venues. Share your space with food lovers 
               and grow your business with Ehgz.
             </p>
-            <Link
-              to="/contact"
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfRDckAy2QIaAhcLJy0y5LtHY-x5NYkNfJNGMYMy6_LSxAd1Q/viewform?usp=sharing&ouid=104158611849610461933"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block bg-white text-primary-600 font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors duration-200"
             >
               Submit Your Venue
-            </Link>
+            </a>
           </motion.div>
         </div>
       </section>

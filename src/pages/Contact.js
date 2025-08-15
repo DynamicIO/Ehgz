@@ -291,19 +291,13 @@ const Contact = () => {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="https://forms.google.com/venue-submission"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfRDckAy2QIaAhcLJy0y5LtHY-x5NYkNfJNGMYMy6_LSxAd1Q/viewform?usp=sharing&ouid=104158611849610461933"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white text-primary-600 font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors duration-200 inline-flex items-center gap-2"
+                className="bg-white text-primary-600 font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors duration-200"
               >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
-                </svg>
                 Submit Your Venue
               </a>
-              <span className="text-white/80 text-sm">
-                or email us at venues@ehgz.com
-              </span>
             </div>
           </motion.div>
         </div>
