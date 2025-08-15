@@ -35,8 +35,8 @@ const Contact = () => {
         </svg>
       ),
       title: 'Email Us',
-      info: 'hello@ehgz.com',
-      link: 'mailto:hello@ehgz.com'
+      info: 'Dynamic.io.usa@gmail.com',
+      link: 'mailto:Dynamic.io.usa@gmail.com'
     },
     {
       icon: (
@@ -45,8 +45,8 @@ const Contact = () => {
         </svg>
       ),
       title: 'Call Us',
-      info: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      info: '(848)-285-2926',
+      link: 'tel:(848)-285-2926'
     },
     {
       icon: (

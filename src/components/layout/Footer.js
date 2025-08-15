@@ -95,7 +95,7 @@ const Footer = () => {
               © {currentYear} Ehgz. All rights reserved.
             </p>
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              Built with ❤️ By Dynamic.IO for food lovers in Egypt
+              Built with ❤️ By <a href="https://dynamicio.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors duration-200 font-medium">Dynamic.IO</a> for food lovers in Egypt
             </p>
           </div>
         </div>

@@ -46,28 +46,17 @@ const About = () => {
   const stats = [
     { number: '150+', label: 'Amazing Venues' },
     { number: '10K+', label: 'Happy Customers' },
-    { number: '25+', label: 'Neighborhoods' },
+    { number: '25+', label: 'Cities' },
     { number: '4.8★', label: 'Average Rating' }
   ];
 
   const team = [
     {
-      name: 'Sarah Johnson',
-      role: 'Founder & CEO',
-      image: 'https://images.unsplash.com/photo-1494790108755-2616b612b77c?w=400&q=80',
-      description: 'Passionate foodie with 10+ years in hospitality industry.'
-    },
-    {
-      name: 'Michael Chen',
-      role: 'Head of Partnerships',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80',
-      description: 'Building relationships with the best venues in the city.'
-    },
-    {
-      name: 'Emily Rodriguez',
-      role: 'Customer Experience',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80',
-      description: 'Ensuring every customer has an exceptional experience.'
+      name: 'Dynamic.IO',
+      role: 'Head of Operations',
+      image: '/Dynamic.IOPhoto.png',
+      description: 'Leading technology partner specializing in innovative web solutions and digital experiences.',
+      website: 'https://dynamicio.vercel.app/'
     }
   ];
 
@@ -90,9 +79,8 @@ const About = () => {
               About <span className="gradient-text">Ehgz</span>
             </h1>
             <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              We're passionate about connecting food lovers with extraordinary dining experiences. 
-              Our mission is to make discovering and booking great restaurants, cafes, and bars as 
-              simple and enjoyable as the meals themselves.
+              Ehgz is a product of Dynamic.IO, a software development firm espicilazing in creating digital experiences and 
+              custom software solutions for businesses and the people.
             </p>
           </motion.div>
         </div>
@@ -113,14 +101,16 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-lg text-gray-600 dark:text-gray-300">
                 <p>
-                  Ehgz was born from a simple frustration: finding great places to eat shouldn't be 
-                  so complicated. After countless disappointing meals and missed reservation opportunities, 
-                  we decided to create something better.
+                Ehgz was born from a simple but common frustration: in Egypt, finding and booking the perfect restaurant, café, or bar 
+                shouldn’t be such a hassle. Too often, the process meant digging through scattered social media pages, sending messages 
+                on WhatsApp, waiting for replies from reception desks, and dealing with endless back-and-forth just to secure a spot.
                 </p>
                 <p>
-                  We started by carefully curating a selection of exceptional venues – places where 
-                  the food is outstanding, the atmosphere is welcoming, and the experience is memorable. 
-                  Our team personally visits each location to ensure it meets our high standards.
+                We knew there had to be a better way. So, we created a platform where people can explore, see, and book Egypt’s 
+                best dining spots all in one place. Whether you’re after a casual coffee, a romantic dinner, or a lively night out, 
+                Ehgz makes it effortless to discover and reserve experiences across the country—helping both locals and visitors truly 
+                explore Egypt’s vibrant food and drink scene.
+
                 </p>
                 <p>
                   Today, Ehgz helps thousands of food lovers discover their next favorite meal while 
@@ -137,8 +127,8 @@ const About = () => {
               className="relative"
             >
               <img
-                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80"
-                alt="Restaurant atmosphere"
+                src="/20250712_2257_Website Favicon Design_remix_01k0038eabfaev71vsx429n68e.png"
+                alt="Ehgz brand design"
                 className="rounded-2xl shadow-2xl"
               />
               <div className="absolute inset-0 bg-gradient-to-tr from-primary-600/20 to-transparent rounded-2xl" />
@@ -249,7 +239,7 @@ const About = () => {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="flex justify-center">
             {team.map((member, index) => (
               <motion.div
                 key={member.name}
@@ -257,22 +247,32 @@ const About = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="card p-6 text-center"
+                className="max-w-sm"
               >
-                <img
-                  src={member.image}
-                  alt={member.name}
-                  className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
-                />
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-1">
-                  {member.name}
-                </h3>
-                <p className="text-primary-600 dark:text-primary-400 font-medium mb-3">
-                  {member.role}
-                </p>
-                <p className="text-gray-600 dark:text-gray-400 text-sm">
-                  {member.description}
-                </p>
+                <a
+                  href={member.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block card p-6 text-center hover:shadow-lg transition-shadow duration-200 group"
+                >
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+                  />
+                  <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-1 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200">
+                    {member.name}
+                  </h3>
+                  <p className="text-primary-600 dark:text-primary-400 font-medium mb-3">
+                    {member.role}
+                  </p>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm">
+                    {member.description}
+                  </p>
+                  <div className="mt-4 text-primary-600 dark:text-primary-400 text-sm font-medium">
+                    Visit Website →
+                  </div>
+                </a>
               </motion.div>
             ))}
           </div>
